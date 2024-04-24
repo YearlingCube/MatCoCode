@@ -43,7 +43,7 @@ namespace MatCoCode
                 if(line == "#showTree")
                 {
                     showTree = !showTree;
-                    Console.WriteLine(showTree ? "Showing Parse Trees." : "Stopped Showing Parse Trees.");
+                    Console.WriteLine(showTree ? "Parse Trees Are Now Enabled!" : "Parse Trees Are Now Disabled!");
                     continue;
                 }
                 else if (line == "#cls")
